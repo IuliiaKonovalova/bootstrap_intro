@@ -42,8 +42,8 @@ body {
 /* Block dividers */
 
 .block-divider {
-  width: 75px;
-  height: 5px;
+  width: 6rem;
+  height: 0.3rem;
   border: 0;
   background-color: #444;
 }
@@ -64,12 +64,12 @@ body {
 .jumbotron-header {
   color: white;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 2.5rem;
 }
 
 .jumbotron .lead {
   color: #a7a7a7;
-  margin: 25px 0;
+  margin: 2rem 0;
 }
 
 .jumbotron small {
@@ -83,7 +83,7 @@ body {
 .btn--cta {
   font-weight: bold;
   border-radius: 1.5rem;
-  width: 160px;
+  width: 10rem;
 }
 
 .btn--red {
