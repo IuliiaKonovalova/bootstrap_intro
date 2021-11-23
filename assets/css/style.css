@@ -197,3 +197,17 @@ body {
 .quotes .page-header {
   margin-bottom: 6rem;
 }
+
+/* Features */
+
+.feature {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.feature i {
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  line-height: 1.7;
+  color: #eec802;
+}
