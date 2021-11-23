@@ -211,3 +211,13 @@ body {
   line-height: 1.7;
   color: #eec802;
 }
+
+.feature .btn {
+  background-color: white;
+  border-color: white;
+  border-radius: 1rem;
+  min-width: 7rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #f05f40;
+}
