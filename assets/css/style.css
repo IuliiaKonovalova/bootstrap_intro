@@ -121,24 +121,31 @@ body {
 /* Jumbotron */
 .jumbotron {
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .jumbotron-header {
   color: white;
   font-weight: bold;
   margin-bottom: 2.5rem;
+  font-size: 4vh;
 }
 
 .jumbotron .lead {
   color: #a7a7a7;
   margin: 2rem 0;
   letter-spacing: 0.05rem;
+  font-size: 2vh;
 }
 
 .jumbotron small {
   font-size: 60%;
   font-style: italic;
   color: #d0d0d0;
+  font-size: 2.5vh;
 }
 
 /* Buttons */
@@ -153,6 +160,14 @@ body {
   color: white;
   background-color: #f05f40;
   border-color: #f05f40;
+}
+
+.sign_in {
+  font-size: 3vh;
+  width: unset;
+  padding: 0.5rem 3rem;
+  border-radius: 2.5rem;
+  margin: 2rem auto;
 }
 
 .btn--red:hover,
