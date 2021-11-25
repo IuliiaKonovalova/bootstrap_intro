@@ -132,6 +132,7 @@ body {
 .jumbotron .lead {
   color: #a7a7a7;
   margin: 2rem 0;
+  letter-spacing: 0.05rem;
 }
 
 .jumbotron small {
@@ -220,4 +221,9 @@ body {
   font-weight: bold;
   margin-top: 1.5rem;
   color: #f05f40;
+}
+
+.call_to_action {
+  background-color: rgba(255, 145, 0, 0.829);
+  padding: 0.5rem 2rem 0.5rem 2rem;
 }
