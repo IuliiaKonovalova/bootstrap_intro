@@ -214,6 +214,19 @@ body {
   margin-bottom: 6rem;
 }
 
+.blockquote {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.quotes_text {
+  font-style: italic;
+}
+
+.quotes_name {
+  font-size: 1.7rem;
+}
+
 /* Features */
 
 .feature {
